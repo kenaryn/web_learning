@@ -1,19 +1,78 @@
 body {
   background-color: bisque;
   padding: 1em;
-  border: 0.5em solid goldenrod;
+  border: 0.3em solid goldenrod;
   border-radius: 1em;
 }
 
-nav ul {
+nav {
+  position: sticky;
+  top: 1em;
+  left: 1em;
+  margin: 0 5em;
+}
+
+ul {
   list-style-type: none;
   display: flex;
+  justify-content: center;
+}
+
+nav {
+  background-color: darkgrey;
+  border-radius: 1.2em;
 }
 
 nav li {
-  padding: 0.3em 0.5em;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+nav li:hover {
+  border-bottom: 0.15em solid rgb(105, 29, 144);
+}
+
+nav li a {
+  color: darkred;
+  margin: 0px;
+  padding: 0.3em 0.8em;
+}
+
+nav li a:hover {
+  color: darkorchid;
 }
 
 a {
   text-decoration: none;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0.3em 0.5em;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+footer p {
+  text-align: center;
+  padding: 0.3em 0.5em;
+}
+
+img {
+  max-width: 30%;
+}
+
+#sub-banner
+{
+  display: flex;
+  flex-direction: column;
+}
+
+article p {
+  text-justify: justify;
+  justify-content: space-between;
 }
