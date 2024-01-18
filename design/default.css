@@ -1,0 +1,19 @@
+body {
+  background-color: bisque;
+  padding: 1em;
+  border: 0.5em solid goldenrod;
+  border-radius: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  padding: 0.3em 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
